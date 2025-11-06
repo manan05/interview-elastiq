@@ -6,7 +6,7 @@ function App() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await fetch("http://127.0.0.1:8000/analyze", {
+    const res = await fetch("https://136.116.185.66/analyze", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ text }),
