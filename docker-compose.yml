@@ -5,6 +5,6 @@ services:
     ports:
       - "8000:8000"
   frontend:
-    build: ./frontend
+    build: ./my-react-app
     ports:
       - "3000:80"
